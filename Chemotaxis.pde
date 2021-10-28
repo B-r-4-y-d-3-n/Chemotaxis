@@ -143,20 +143,6 @@ void draw() {
       strokeWeight(2);
       ellipse(myX, myY, x, y);
     }
-    void expands() {
-      for (int i = 0; i < oldPplHome.length; i++) {
-        if (dist(oldPplHome[i].myX, oldPplHome[i].myY, mouseX, mouseY) <= 20) {
-          x+=1;
-          y+=1;
-        }
-        if (x>100) {
-          x=100;
-        }
-        if (y>100) {
-          y=100;
-        }
-        c1-=2;
-      }
       
     }
   
