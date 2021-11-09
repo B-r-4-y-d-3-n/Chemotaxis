@@ -13,7 +13,7 @@ void draw(){
   jeff.show();
   jason.walk();
   jason.show();
-  if(dist(joe.myX,joe.myY,jeff.myX,jeff.myY)<200)
+  if(dist(joe.myX,joe.myY,jeff.myX,jeff.myY)<100)
     jason.myColor = joe.myColor = jeff.myColor = color(34,254,123);
 }
 class Walker{
